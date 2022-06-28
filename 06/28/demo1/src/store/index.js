@@ -1,7 +1,8 @@
-﻿import { createStore } from 'redux'
+﻿'use strict'
 
-import redux from '../redux/count'
+import { createStore } from 'redux'
+import { reducer } from '../reducer'
 
-const store = createStore(redux)
+const store = createStore(reducer)
 
 export default store
