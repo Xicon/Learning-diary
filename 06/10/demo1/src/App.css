@@ -1,0 +1,49 @@
+* {
+	margin  : 0;
+	padding : 0;
+
+}
+
+header,
+main,
+footer {
+	width  : 40vw;
+	margin : 0 auto;
+}
+
+header {
+	font-size   : 60px;
+	line-height : 30vh;
+	height      : 40vh;
+}
+
+main {
+	height : 30vh;
+}
+
+main aside {
+	overflow : auto;
+	height   : 30vh;
+}
+
+main label input {
+	padding          : 5px;
+	border           : none;
+	border-bottom    : 1px solid #7ec699;
+	outline          : none;
+	background-color : transparent;
+}
+
+main label input:focus {
+	outline          : none;
+	background-color : transparent;
+}
+
+main label input::-webkit-input-placeholder {
+	color : #67cdcc;
+}
+
+main aside label {
+	display : block;
+	margin  : 20px 0;
+}

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" />
+	<noscript>
+		<!-- anchor linking to external file -->
+		<a href="https://www.enablejavascript.io/cn">External Link</a>
+	</noscript>
+
+	<!--	<meta name="application-name" content="网页中所运行的应用程序的名称" />-->
+	<meta content="LisaSummer<xiconz@qq.com>" name="author" />
+	<meta content="一段简短而精确的、对页面内容的描述。一些浏览器，比如 Firefox 和 Opera，将其用作书签的默认描述" name="description" />
+	<meta content="与页面内容相关的关键词，使用逗号分隔。" name="keywords" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<!--控制由当前文档发出的请求的 HTTP Referer 请求头 -->
+	<meta content="no-referrer-when-downgrade" name="referrer" />
+	<meta content="dark" name="color-scheme" />
+	<meta content="dark" media="(prefers-color-scheme:dark)" name="theme-color" />
+	<meta content="white" media="(prefers-color-scheme:light)" name="theme-color" />
+	<!--	<meta name="color-scheme" content="light" />-->
+	<!--<link rel="icon" href="/favicon.ico" />-->
+	<title>Title</title>
+</head>
+<body>
+
+<script src="/src/main.ts" type="module"></script>
+<script>
+	(() => {
+		const hour = +new Date().getHours()
+		if ( hour >= 19 || hour <= 9 ) document.body.className = 'dark'
+		else document.body.className = 'light'
+	})()
+</script>
+
+</body>
+</html>

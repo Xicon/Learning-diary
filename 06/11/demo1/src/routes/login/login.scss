@@ -1,0 +1,20 @@
+﻿@charset "UTF-8";
+
+form {
+	display          : flex;
+	flex-direction   : column;
+	justify-content  : start;
+	width            : 40vw;
+	height           : 40vh;
+	margin           : 0 auto;
+	background-color : #3aa675;
+
+	label {
+		display : block;
+		margin  : 10px 0;
+
+		input {
+
+		}
+	}
+}
