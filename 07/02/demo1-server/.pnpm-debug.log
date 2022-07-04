@@ -1,0 +1,41 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "G:\\Web\\Learning-diary\\07\\02\\demo1-server"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "G:\\.pnpm-store\\v3",
+    "virtualStoreDir": "G:\\Web\\Learning-diary\\07\\02\\demo1-server\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "G:\\Web\\Learning-diary\\07\\02\\demo1-server",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "grqphql is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/grqphql"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "grqphql",
+    "spec": {
+      "fetchSpec": "latest",
+      "name": "grqphql",
+      "type": "tag"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/grqphql: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/grqphql: Not Found - 404\n    at RetryOperation._fn (g:\\nvm\\v16.15.0\\node_modules\\pnpm\\dist\\pnpm.cjs:85618:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}

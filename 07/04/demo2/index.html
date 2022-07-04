@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8" />
+	<noscript>
+		<!-- anchor linking to external file -->
+		<a href="https://www.enablejavascript.io/cn">External Link</a>
+	</noscript>
+
+	<!--	<meta name="application-name" content="网页中所运行的应用程序的名称" />-->
+	<meta content="LisaSummer<xiconz@qq.com>" name="author" />
+	<meta content="一段简短而精确的、对页面内容的描述。一些浏览器，比如 Firefox 和 Opera，将其用作书签的默认描述" name="description" />
+	<meta content="与页面内容相关的关键词，使用逗号分隔。" name="keywords" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<!--控制由当前文档发出的请求的 HTTP Referer 请求头 -->
+	<meta content="no-referrer-when-downgrade" name="referrer" />
+	<!--	<meta content="dark" name="color-scheme" />-->
+	<!--	<meta content="dark" media="(prefers-color-scheme:dark)" name="theme-color" />-->
+	<!--	<meta content="white" media="(prefers-color-scheme:light)" name="theme-color" />-->
+	<!--	<meta name="color-scheme" content="light" />-->
+	<!--<link rel="icon" href="/favicon.ico" />-->
+	<title>Title</title>
+	<style>
+		* {
+			margin  : 0;
+			padding : 0;
+		}
+
+		ul {
+			display               : grid;
+			width                 : 400px;
+			margin                : 20px auto 0;
+			grid-template-columns : repeat(5, 100px);
+			grid-template-rows    : repeat(4, 100px);
+			/* grid-template-area : 'a b c' 'e f g' 'h i j'; */
+		}
+
+		.zero {
+			width             : 150px;
+			grid-column-start : span 2;
+		}
+
+		.equal {
+			line-height : 150px;
+			height      : 150px;
+		}
+
+		li {
+			line-height     : 50px;
+			width           : 50px;
+			height          : 50px;
+			list-style-type : none;
+			text-align      : center;
+			border          : 1px salmon solid;
+
+		}
+
+		code {
+			display : block;
+			width   : 400px;
+			height  : 20px;
+			margin  : 0 auto;
+			padding : 5px;
+			border  : 1px salmon solid;
+		}
+
+		/* li:nth-child(odd) { */
+		/* 	background-color : #7ec699; */
+		/* } */
+	</style>
+</head>
+<body>
+
+<main>
+	<code>0</code>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>/</li>
+		<li>%</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>*</li>
+		<li>1/x</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>-</li>
+		<li class="equal">=</li>
+		<li class="zero">0</li>
+		<li>.</li>
+		<li>+</li>
+	</ul>
+</main>
+
+</body>
+</html>
+
+<script>
+	const btnList = document.querySelectorAll('li')
+			, result = document.querySelector('code');
+
+	let input = []
+			, num0 = ''
+			, num1 = 0;
+
+	Array.from(btnList).map((li) => {
+		li.addEventListener('click', function(e){
+			input.push(li.textContent);
+
+			if (li.textContent === '+') this.style.backgroundColor = 'red';
+			if (li.textContent === '=') {
+				this.style.backgroundColor = 'red';
+				result.style.backgroundColor = 'salmon';
+				result.style.border = '1px green solid;';
+				num0 = input.splice(0, input.indexOf('+'));
+				num1 = input.splice(input.indexOf('+') + 1, input.indexOf('=') - 1);
+				//确定传递的值是否为安全整数 ( -(2^53 - 1) 至 2^53 - 1) 之间。
+				if (Number.isSafeInteger(Number.parseInt(num0.join(','))) && Number.isSafeInteger(
+						Number.parseInt(num1.join(',')))) {
+					result.textContent = Number.parseInt(num0.join(',')) + Number.parseInt(num1.join(','));
+				}
+			}
+		});
+	});
+
+</script>

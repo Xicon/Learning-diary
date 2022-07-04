@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"G:\\Web\\Learning-diary\\07\\04\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"G:\\Web\\Learning-diary\\07\\04\".\n    at readProjectManifest (g:\\nvm\\v16.15.0\\node_modules\\pnpm\\dist\\pnpm.cjs:20853:13)\n    at async Object.readProjectManifestOnly (g:\\nvm\\v16.15.0\\node_modules\\pnpm\\dist\\pnpm.cjs:20857:28)\n    at async readProjectManifestOnly (g:\\nvm\\v16.15.0\\node_modules\\pnpm\\dist\\pnpm.cjs:44018:24)\n    at async Object.handler (g:\\nvm\\v16.15.0\\node_modules\\pnpm\\dist\\pnpm.cjs:184440:24)\n    at async g:\\nvm\\v16.15.0\\node_modules\\pnpm\\dist\\pnpm.cjs:192576:21\n    at async run (g:\\nvm\\v16.15.0\\node_modules\\pnpm\\dist\\pnpm.cjs:192550:34)\n    at async runPnpm (g:\\nvm\\v16.15.0\\node_modules\\pnpm\\dist\\pnpm.cjs:192768:5)\n    at async g:\\nvm\\v16.15.0\\node_modules\\pnpm\\dist\\pnpm.cjs:192760:7"
+    }
+  }
+}
