@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5fa0e2ad-0446-48a9-9a09-0c1b4a00b447" name="Changes" comment="Changes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="7wa2w6eq" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2BqsHzNX7vR4vatzb1z3u0ZE0Rm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.16.0",
+    "javascript.nodejs.core.library.typings.version": "16.11.45",
+    "last_opened_file_path": "E:/Web/Learning-diary/Redux-Toolkit",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "E:\\Web\\Learning-diary\\07\\16\\demo1\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Web\Learning-diary\Redux-Toolkit" />
+      <recent name="E:\Web\Learning-diary\07\15\demo1\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Web\Learning-diary\07\16\demo1\src\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fa0e2ad-0446-48a9-9a09-0c1b4a00b447" name="Changes" comment="" />
+      <created>1657644882049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657644882049</updated>
+      <workItem from="1657644900947" duration="270000" />
+      <workItem from="1657787079526" duration="3216000" />
+      <workItem from="1657870966248" duration="1156000" />
+      <workItem from="1657872180557" duration="598000" />
+      <workItem from="1657873348580" duration="91000" />
+      <workItem from="1657876045573" duration="3072000" />
+      <workItem from="1657879344574" duration="2017000" />
+      <workItem from="1657883129082" duration="295000" />
+      <workItem from="1657883442575" duration="77000" />
+      <workItem from="1657884562800" duration="860000" />
+      <workItem from="1657886095924" duration="736000" />
+      <workItem from="1657897123318" duration="789000" />
+      <workItem from="1657897986003" duration="2944000" />
+      <workItem from="1657928770870" duration="18285000" />
+      <workItem from="1658038462632" duration="3686000" />
+      <workItem from="1658074359514" duration="6313000" />
+      <workItem from="1658110416127" duration="4851000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/07/16/demo1-server/src/data/index.d.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

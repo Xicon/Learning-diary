@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "apollo-server": "^3.10.0",
+    "cors": "^2.8.5"
+  },
+  "name": "demo1-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

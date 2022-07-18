@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,height=device-height">
+	<title>曲线折线图</title>
+	<style>::-webkit-scrollbar {
+		display : none;
+	}
+
+	html, body {
+		overflow : hidden;
+		height   : 100%;
+		margin   : 0;
+	}</style>
+</head>
+<body>
+<div id="container"></div>
+<script>/*Fixing iframe window.innerHeight 0 issue in Safari*/
+document.body.clientHeight;</script>
+<script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g2-3.5.1/dist/g2.min.js"></script>
+<script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.data-set-0.10.1/dist/data-set.min.js"></script>
+<script>
+	// 在一行中保存多个城市的数据，需要将数据转换成
+	// {month: 'Jan', city: 'Tokyo', temperature: 3.9}
+
+
+	const data = [
+		{
+			type: '分类一',
+			value: 27
+		},
+		{
+			type: '分类二',
+			value: 25
+		},
+		{
+			type: '分类三',
+			value: 18
+		},
+		{
+			type: '分类四',
+			value: 15
+		},
+		{
+			type: '分类五',
+			value: 10
+		},
+		{
+			type: '其他',
+			value: 5
+		},
+	];
+
+	const piePlot = new Pie('container', {
+		appendPadding: 10,
+		data,
+		angleField: 'value',
+		colorField: 'type',
+		radius: 1,
+		innerRadius: 0.6,
+		label: {
+			type: 'inner',
+			offset: '-50%',
+			content: '{value}',
+			style: {
+				textAlign: 'center',
+				fontSize: 14,
+			},
+		},
+		interactions: [{ type: 'element-selected' }, { type: 'element-active' }],
+		statistic: {
+			title: false,
+			content: {
+				style: {
+					whiteSpace: 'pre-wrap',
+					overflow: 'hidden',
+					textOverflow: 'ellipsis',
+				},
+				content: 'AntV\nG2Plot',
+			},
+		},
+	});
+
+	piePlot.render();
+</script>
+</body>
+</html>
