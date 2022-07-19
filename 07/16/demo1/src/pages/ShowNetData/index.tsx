@@ -1,6 +1,6 @@
 import { gql, useQuery } from '@apollo/client'
 import { Result, Space, Spin } from 'antd'
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, RefObject } from 'react'
 
 import { Rose } from '@antv/g2plot'
 
@@ -47,11 +47,11 @@ const useData = () => {
 const ShowNetData = () => {
   const data = useData()
 
-  const ref = useRef<HTMLElement | null>(null)
+  const ref = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
 
-    const rosePlot = new Rose(ref.current as HTMLElement, {
+    const rosePlot = new Rose(ref.current as HTMLDivElement, {
       data,
       xField: 'type',
       yField: 'value',

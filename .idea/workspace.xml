@@ -4,7 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa0e2ad-0446-48a9-9a09-0c1b4a00b447" name="Changes" comment="Changes" />
+    <list default="true" id="5fa0e2ad-0446-48a9-9a09-0c1b4a00b447" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/07/18/demo3/components/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/18/demo3/components/layout.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/18/demo3/pages/posts/first-post.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/18/demo3/public/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/18/demo3/styles/utils.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/public/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/public/images/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/public/images/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/public/images/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/routes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/routes/news.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/routes/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/components/Layout/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/components/Layout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/_app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/api/hello.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/posts/first-post.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/posts/pre-rendering.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/posts/ssg-ssr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/styles/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/styles/utilStyles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/utils/fetch.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/utils/posts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo2/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/16/demo1/src/pages/ShowNetData/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/07/16/demo1/src/pages/ShowNetData/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +70,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+        <option value="HTML File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -49,26 +107,47 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "16.16.0",
     "javascript.nodejs.core.library.typings.version": "16.11.45",
-    "last_opened_file_path": "E:/Web/Learning-diary/Redux-Toolkit",
+    "last_opened_file_path": "E:/Web/Learning-diary/07/19/demo1-server/src/public/images",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "E:\\Web\\Learning-diary\\07\\16\\demo1\\node_modules\\typescript\\lib",
+    "typescript.add.unambiguous.imports.on.the.fly": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Web\Learning-diary\07\19\demo1-server\src\public\images" />
+      <recent name="E:\Web\Learning-diary\07\18\demo3\public\images" />
       <recent name="E:\Web\Learning-diary\Redux-Toolkit" />
       <recent name="E:\Web\Learning-diary\07\15\demo1\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Web\Learning-diary\07\19\demo1\components" />
       <recent name="E:\Web\Learning-diary\07\16\demo1\src\pages" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/07/19/demo1-server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,17 +173,13 @@
       <workItem from="1657928770870" duration="18285000" />
       <workItem from="1658038462632" duration="3686000" />
       <workItem from="1658074359514" duration="6313000" />
-      <workItem from="1658110416127" duration="4851000" />
+      <workItem from="1658110416127" duration="24489000" />
+      <workItem from="1658189554025" duration="31775000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/07/16/demo1-server/src/data/index.d.ts" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -119,5 +194,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/07/18/demo3/pages/index.tsx</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
