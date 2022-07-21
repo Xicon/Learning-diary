@@ -4,63 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fa0e2ad-0446-48a9-9a09-0c1b4a00b447" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/07/18/demo3/components/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/18/demo3/components/layout.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/18/demo3/pages/posts/first-post.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/18/demo3/public/images/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/18/demo3/styles/utils.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/public/images/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/public/images/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/public/images/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/public/images/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/routes/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/routes/news.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/src/routes/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1-server/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/components/Layout/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/components/Layout/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/next-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/next.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/_app.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/api/hello.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/posts/first-post.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/posts/pre-rendering.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/posts/ssg-ssr.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/public/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/styles/Home.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/styles/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/styles/utilStyles.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/utils/fetch.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo1/utils/posts.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/19/demo2/vite.config.ts" afterDir="false" />
+    <list default="true" id="5fa0e2ad-0446-48a9-9a09-0c1b4a00b447" name="Changes" comment="2022/07/21 learn">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/blog/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/19/demo1/pages/posts/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/20/demo1/pages/blog/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/20/demo1/pages/page/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/20/demo1/pages/posts/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/20/demo1/pages/posts/first.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/20/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/pages/_app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/pages/api/hello.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/pages/blog/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/styles/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/21/demo1/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07/16/demo1/src/pages/ShowNetData/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/07/16/demo1/src/pages/ShowNetData/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/18/demo3/pages/posts/first-post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/07/18/demo3/pages/posts/first-post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/19/demo1-server/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/07/19/demo1-server/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/19/demo1-server/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/07/19/demo1-server/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/19/demo1-server/src/routes/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/07/19/demo1-server/src/routes/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/19/demo1/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/07/19/demo1/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/19/demo1/pages/posts/first-post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/07/19/demo1/pages/posts/first-post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/19/demo1/utils/posts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/07/19/demo1/utils/posts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/19/demo2/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/07/19/demo2/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
         <option value="HTML File" />
         <option value="TypeScript File" />
       </list>
@@ -80,6 +58,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="7wa2w6eq" />
@@ -101,9 +83,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "16.16.0",
     "javascript.nodejs.core.library.typings.version": "16.11.45",
@@ -114,7 +98,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editing.templates",
     "ts.external.directory.path": "E:\\Web\\Learning-diary\\07\\16\\demo1\\node_modules\\typescript\\lib",
     "typescript.add.unambiguous.imports.on.the.fly": "true",
     "vue.rearranger.settings.migration": "true"
@@ -174,8 +158,21 @@
       <workItem from="1658038462632" duration="3686000" />
       <workItem from="1658074359514" duration="6313000" />
       <workItem from="1658110416127" duration="24489000" />
-      <workItem from="1658189554025" duration="31775000" />
+      <workItem from="1658189554025" duration="41638000" />
+      <workItem from="1658284517165" duration="1132000" />
+      <workItem from="1658286367950" duration="3588000" />
+      <workItem from="1658290240004" duration="7996000" />
+      <workItem from="1658318949353" duration="6669000" />
+      <workItem from="1658381198144" duration="4287000" />
     </task>
+    <task id="LOCAL-00001" summary="2022/07/09 learn">
+      <created>1658243247441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658243247441</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +191,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/07/19/demo1-server" />
+      <path value="$PROJECT_DIR$/Redux-Toolkit" />
+    </ignored-roots>
+    <MESSAGE value="2022/07/09 learn" />
+    <MESSAGE value="2022/07/21 learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022/07/21 learn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

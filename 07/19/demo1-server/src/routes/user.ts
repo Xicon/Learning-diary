@@ -11,11 +11,7 @@ const user: IUSer = {
 }
 
 router.get('/', (req, res) => {
-  res.send({
-    statusText: 'OK',
-    statusCode: 200,
-    body: user,
-  })
+  res.send(user)
 })
 
 export default router

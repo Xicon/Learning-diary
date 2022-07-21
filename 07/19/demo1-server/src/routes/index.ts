@@ -1,7 +1,9 @@
 import newsRouter from './news'
 import userRouter from './user'
+import postsRouter from './posts'
 
 export {
   newsRouter,
-  userRouter
+  userRouter,
+  postsRouter,
 }

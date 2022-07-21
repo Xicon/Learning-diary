@@ -16,7 +16,7 @@ interface IProps {
 }
 
 const CompB = () => {
-  return <Layout>
+  return <Layout home>
     <Head>
       <title>First-post</title>
     </Head>

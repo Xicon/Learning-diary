@@ -7,6 +7,7 @@ import { resolve } from 'path'
 
 import { newsRouter } from './routes/index'
 import { userRouter } from './routes/index'
+import { postsRouter } from './routes/index'
 
 const app: Application = express()
 
@@ -22,6 +23,8 @@ app.all('/', (req, res) => {
 app.use('/api/newsList', newsRouter)
 // user Router
 app.use('/user', userRouter)
+// posts Router
+app.use('/posts', postsRouter)
 
 app.listen(4000, () => {
   console.log('net')
